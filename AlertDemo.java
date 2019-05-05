@@ -8,6 +8,7 @@ public class AlertDemo {
 
 	public static void main(String[] args) throws InterruptedException {
 		
+		System.out.println("Alert functionality");
 		System.setProperty("webdriver.gecko.driver", "D:\\Selenium Setup\\firefox\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
